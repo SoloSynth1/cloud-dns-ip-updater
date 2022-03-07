@@ -13,6 +13,10 @@ This script updates a pre-defined DNS type "A" record in Google Cloud DNS accord
 
 When combined with a scheduler, this effectively acts as a Dynamic DNS (DDNS) service for Google Cloud DNS.
 
+## Architecture Diagram
+
+![cloud-dns-ip-updater drawio](https://user-images.githubusercontent.com/17952490/157065716-b59d6b70-a70e-4e3e-b59f-aedc1454a848.png)
+
 ## Installation
 
 1. Deploy the Cloud Functions (`/functions` of this repo) and grant it permissions to change Cloud DNS resources.
